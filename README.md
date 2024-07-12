@@ -1,26 +1,22 @@
-<div align="center">
-<img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
+# Các nội dung
+- [Giới thiệu](#Giới-thiệu)
+- [Các bước cài đặt](#Các-bước-cài-đặt)
 
-# StudyBuddy
-</div>
+## Giới thiệu
+- Project xây dựng website chat trực tuyến với các chức năng như tạo phòng chat, sử dụng phòng chat, chỉnh sửa profile cá nhân, cũng như các chức năng cơ bản như đăng nhập, đăng ký, phân quyền người dùng.
 
-### Cloning the repository
+## Các bước cài đặt
 
---> Clone the repository using the command below :
+### Clone repo
+
+--> Sử dụng câu lệnh :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
+git clone https://github.com/Thai1708/Django-Chat-Room.git
 
 ```
 
---> Move into the directory where we have the project files : 
+--> Tạo virtual environment :
 ```bash
-cd StudyBud
-
-```
-
---> Create a virtual environment :
-```bash
-# Let's install virtualenv first
 pip install virtualenv
 
 # Then we create our virtual environment
@@ -34,7 +30,7 @@ envname\scripts\activate
 
 ```
 
---> Install the requirements :
+--> Install requirements :
 ```bash
 pip install -r requirements.txt
 
@@ -44,13 +40,19 @@ pip install -r requirements.txt
 
 ### Running the App
 
---> To run the App, we use :
+--> Chuyển đến thư mục sau : 
+```bash
+cd StudyBud
+
+```
+
+--> Chạy app :
 ```bash
 python manage.py runserver
 
 ```
 
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
+> ⚠ Web chạy tại link http://127.0.0.1:8000/
 
 #
 
@@ -62,14 +64,14 @@ python manage.py runserver
 &nbsp; 
 <br>
 <p align="center">
-  Feed Home
+  Trang chủ
 </p>
 <img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
-  Room Conversation Preview
+  Phòng chat
 </p>
 <img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
 </td>
